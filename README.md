@@ -1,4 +1,3 @@
-
 # Estrutura e Funcionalidade do Projeto
 
 Este projeto é uma aplicação que utiliza SQLite para gerir bases de dados relacionadas com informações de carros.
@@ -27,9 +26,9 @@ epbjc/
 |       ├── update_estado_db.py.py          #Query UPDATE para atualizar os dados na tabela carros_estado
 |       └── update_mae_db.py.py             #Query UPDATE para atualizar os dados na tabela carros_mae
 ├── sqlite-database/
-│   ├── epbjc_backup_1.db
-│   ├── epbjc_backup_2.db
-│   └── epbjc_backup_3.db
+│   ├── epbjc_backup_1.db                   #Guardar backups de código
+│   ├── epbjc_backup_2.db                   #Guardar backups de código
+│   └── epbjc_backup_3.db                   #Guardar backups de código
 │   ├── epbjc.db
 ├── migracao/
 │   ├── 
@@ -87,4 +86,3 @@ O código pode ser executado diretamente utilizando o comando:
 ```bash
 python main.py
 ```
-
